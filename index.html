@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Merienda+One&family=Merriweather:ital@1&family=Sacramento&display=swap" rel="stylesheet">
+    <title>HTML 5 Tags</title>
+    <style>
+        figure{
+          display:inline-block;
+          float: left;
+        }
+        figcaption{
+          font-family: 'Sacramento', cursive;
+          font-weight: bold;
+          font-size: 20px;
+        }
+        header{
+          margin: 20px 0px 20px 0px;
+          padding-left: 575px;
+          font-weight: bold;
+          font-family: 'Merriweather', serif;
+        }
+        footer{
+          align:center;
+          width:98%;
+          display:flex;
+          margin-top: 560px;
+          justify-content: center;
+          padding: 5px;
+          background-color: #45a1ff;
+          color: #fff;
+          position: fixed;
+        }
+        .about{
+          background-color: #eee;
+          padding: 20px;
+          font: 1rem 'Fira Sans', sans-serif;
+        }
+        .about h2{
+          font-family: 'Acme', sans-serif;
+        }
+        .keypoint{
+          margin: 2px;
+          padding: 10px;
+          float: right;
+          font-style: italic;
+          font-weight: bold;
+          box-shadow: inset 5px 0 6px -5px #29627e;
+          color: #29627e;
+          font-size: 13px;
+        }
+        video{
+          float: right;
+        }
+        table{
+          display: block;
+        }
+        td{
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      D.Dheeraj(RA1711003010040)
+    </header>
+    <footer>
+      Student @SRM IST
+    </footer>
+    <figure>
+      <center><img src="media/Dheeraj.jpg" alt="D.Dheeraj" height="200px" width="170px"></center>
+      <figcaption><center>D.Dheeraj</center></figcaption>
+      <div>
+        <label for="file">UG Completed: </label>
+        <progress id="file" max="100" value="75"></progress>75%
+      </div>
+    </figure>
+    <br><br><br><br>
+    <article class="about">
+      <h2>Hi there, I'm D.Dheeraj</h2>
+      <aside class="keypoint">
+        <p><u>The Key skills are</u>:<br>Machine Learning <br>Data Analysis <br> Data Visualization <br>Deep Learning <br>Web Development</p>
+      </aside>
+      <p>I'm Final Year CSE undergrad from SRM Institute of Science and Technology, KTR 🏫. I'm interested in <mark>Data Science</mark> and various other domains in <mark>Artificial Intelligence</mark> 👨‍💻 And wish to come up with some interesting solutions that can be helpful for public. Apart from working on AI/ML solutions I also enjoy developing Web Applications 💻 using web programming tools and also developing mobile applications 📱 using Flutter.
+
+Besides developing and solving problem statements, I enjoy playing Sports 🏀, FPS Multiplayer games 🎮 with friends, Photography 📷 and eating food</p>
+    </article>
+    <br>
+    <table>
+      <tr>
+        <td><u>My Favourite Music</u>:<br></td>
+        <td><u>Dynamic Object Detection Project</u>:<br></td>
+        <td rowspan="2">
+          <u>TAGS USED:</u>
+          <ol>
+            <li>Article</li>
+            <li>Aside</li>
+            <li>Audio</li>
+            <li>Figure</li>
+            <li>Figcaption</li>
+            <li>Footer</li>
+            <li>Header</li>
+            <li>Mark</li>
+            <li>Progress</li>
+            <li>Video</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <audio controls>
+            <source src="media/Open_Door.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </td>
+        <td>
+          <video controls width="250">
+            <source src="media/Akatsuki.mp4"
+                    type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+          </video>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
